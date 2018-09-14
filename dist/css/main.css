@@ -146,8 +146,9 @@
     font-family: 'Satisfy', cursive;
     font-size: 30px;
     position: absolute;
-    bottom: -40px;
-    background-color: #021b39;
+    bottom: -65px;
+    background-color: #021b35, 0.9;
+    text-align: center;
     padding: 0 20px 0 20px; }
   * a {
     color: #fff;
@@ -344,8 +345,7 @@
 
 @media screen and (max-width: 1824px) {
   .projects {
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 50%; } }
+    grid-template-columns: 1fr 1fr 1fr; } }
 
 @media screen and (max-width: 769px) and (max-width: 1170px) {
   .projects {
@@ -383,7 +383,8 @@
   .lg-heading {
     font-size: 50px; }
   .sm-heading {
-    font-size: 22px; }
+    font-size: 22px;
+    bottom: -40px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr;
@@ -408,6 +409,8 @@
     font-size: 20px;
     text-align: center;
     z-index: 4; }
+  .sm-heading {
+    bottom: -35px; }
   .base-wrapper {
     bottom: 50px !important;
     left: 0px !important;
@@ -443,8 +446,7 @@
       height: 150px; } }
 
 .projects {
-  grid-template-columns: 1fr;
-  width: 100%; }
+  grid-template-columns: 1fr; }
 
 .boxes div, .boxes span {
   font-size: 1.2rem;

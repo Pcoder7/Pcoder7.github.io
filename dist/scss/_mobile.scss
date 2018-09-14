@@ -4,7 +4,7 @@
        
        grid-template-columns: 1fr 1fr 1fr;
       
-       width: 50%;
+       
    }
    
      
@@ -75,6 +75,7 @@
       
       .sm-heading {
         font-size: 22px;
+        bottom: -40px;
         
       }
 
@@ -129,6 +130,10 @@
         z-index: 4;
 
         
+    }
+
+    .sm-heading {
+        bottom: -35px;
     }
 
 
@@ -201,7 +206,7 @@
 
     .projects {
         grid-template-columns:  1fr;
-        width: 100%;
+        
         
     }
 
