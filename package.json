@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w dist/scss/ -o dist/css/ --recursive"
+  },
+  "author": "Push",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.3",
+    "npm": "^6.4.1"
+  }
+}
